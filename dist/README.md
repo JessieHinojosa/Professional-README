@@ -1,28 +1,37 @@
 
-  # **brtwvt**
+  # **gbs**
   -------------- 
+  > ## Table of Contents
+  [Description](#Description)<br/>
+  [Installation](#Installation)<br/>
+  [Usage](#Usage)<br/>
+  [License](#License)<br/>
+  [Contribution](#Contribution)<br/>
+  [Test](##testing)<br/>
+  [Questions](##Questions)<br/>
+  --------------
   > ## Description<br/>
-  tbwtb<br/>
-  ![PyPI - License](https://img.shields.io/pypi/l/Django)
+  stbst<br/>
+  ![APM](https://img.shields.io/apm/l/vim-mode)
     
   > ## Installation<br/>
-  btwe
+  htsh
 
   > ## Usage<br/>
-  btewbe
+  hstdh
     
   > ## License<br/>
-   ### *BSD-3-Clause* 
-  &copy;2021 jayMaverick<br/>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: <br/><br/>1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. <br/><br/>2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. <br/><br/>3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission. <br/><br/>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. <br/>
-  [3-Clause BSD](https://opensource.org/licenses/BSD-3-Clause)
+   ### *MIT* 
+  &copy;2021 htsh<br/><br/>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to <br/>deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or <br/>ell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: <br/><br/>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. <br/><br/>THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF <br/>MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE <br/>FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION <br/>
+  [MIT](https://choosealicense.com/licenses/mit/)
 
   > ## Contribution<br/>
-  rtbrw
+  hstd
 
   > ## Testing<br/>
-  brwb
+  tatsh
   
   > ## Questions<br/>
-  wrw
-  [jayMaverick](https://github.com/jayMaverick/)
-   wtbgt
+  hsth<br/>
+  [htsh](https://github.com/htsh/)<br/>
+  heh
