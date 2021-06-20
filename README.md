@@ -1,6 +1,14 @@
-# Professional README Generator
+# **Professional README Generator**
+ ----------------------------- 
 
-## Description
+> ## Description
+
+ this is more difficult then i thought.  returnI may not finish this Assignment this weekend.   returnI need to make evrything up. this bootcamp   is getting dificult. i am lerning alot.
+![APM](https://img.shields.io/apm/l/vim-mode)
+![PyPI - License](https://img.shields.io/pypi/l/Django)
+![Eclipse Marketplace](https://img.shields.io/eclipse-marketplace/l/notepad4e)
+![Hex.pm](https://img.shields.io/hexpm/l/plug)
+[Apache](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Installation
 

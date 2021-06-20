@@ -1,9 +1,8 @@
-// TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown'); 
+
         
-// TODO: Create an array of questions for user input
 const promptUser = () => {
 
     return inquirer.prompt([
@@ -63,7 +62,7 @@ const promptUser = () => {
         type: 'checkbox',
         name: 'license',
         message: 'Which license are you using?',
-        choices:['MIT', 'Apache 2.0', 'GPL', 'BSD']
+        choices:['MIT', 'Apache-2.0', 'EPL-2.0', 'BSD-3-Clause']
     },
     {
         type: 'input',
@@ -113,7 +112,7 @@ const promptUser = () => {
         type: 'input',
         name: 'contactInstructions',
         message: 'Give a set of instructions for the best way to contact you.',
-        validate: githubLinkInput => {
+        validate: contactInput => {
             if(contactInput) {
                 return true;
             }else {
@@ -127,10 +126,9 @@ const promptUser = () => {
 };
 
 
-// TODO: Create a function to write README file
 const writeFile = fileTemplete => {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./dist/README.md', JSON.stringify(fileTemplete), err => {
+        fs.writeFile('./dist/README.md', fileTemplete, err => {
         if(err) {
             reject(err);
             return;
