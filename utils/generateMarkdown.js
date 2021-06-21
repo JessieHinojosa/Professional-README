@@ -44,8 +44,6 @@ function renderLicenseLink(license) {
   return licenseLink;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
 function renderLicenseSection(license, username) {
   let condition = license.toString();
   let licenseDescription;
@@ -91,43 +89,42 @@ function renderLicenseSection(license, username) {
   return licenseDescription;
 }
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   let {title, description, installation, usage, license, contribution, test, ...contact} = data;
     return `
   # **${title}**
   -------------- 
-  > ## Table of Contents
-  [Description](#Description)<br/>
-  [Installation](#Installation)<br/>
-  [Usage](#Usage)<br/>
-  [License](#License)<br/>
-  [Contribution](#Contribution)<br/>
-  [Test](##testing)<br/>
-  [Questions](##Questions)<br/>
+  > # Table of Contents
+  [Description](#description)<a href='#description'></a><br/>
+  [Installation](#installation)<a href='#testing'></a><br/>
+  [Usage](#usage)<a href='#usage'></a><br/>
+  [License](#license)<a href='#license'></a><br/>
+  [Contribution](#contribution)<a href='#contribution'></a><br/>
+  [Testing](#testing)<a href='#testing'></a><br/>
+  [Questions](#questions)<a href='#questions'></a><br/>
   --------------
-  > ## Description<br/>
-  ${description}<br/>
+  > # Description
+  ${description}
   ${renderLicenseBadge(license)}
     
-  > ## Installation<br/>
+  > # Installation
   ${installation}
 
-  > ## Usage<br/>
+  > # Usage
   ${usage}
     
-  > ## License<br/>
-   ### *${license}* 
-  &copy;${renderLicenseSection(license, contact.github)}<br/>
+  > # License
+   ## *${license}* 
+  &copy;${renderLicenseSection(license, contact.github)}
   ${renderLicenseLink(license)}
 
-  > ## Contribution<br/>
+  > # Contribution
   ${contribution}
 
-  > ## Testing<br/>
+  > # Testing
   ${test}
   
-  > ## Questions<br/>
+  > ## Questions
   ${contact.contactInstructions}<br/>
   [${contact.github}](https://github.com/${contact.github}/)<br/>
   ${contact.email}
