@@ -125,8 +125,13 @@ function generateMarkdown(data) {
   ${test}
   
   > ## Questions
+  For any questions you can best contact me by the following instructions:<br/>
   ${contact.contactInstructions}<br/>
+  <br/>
+  Github Username:<br/>
   [${contact.github}](https://github.com/${contact.github}/)<br/>
+  <br/>
+  Contact E-mail:<br/>
   ${contact.email}
 `
 }
