@@ -12,7 +12,9 @@
   --------------
   > # Description
   Using Node.js, This application that is ran in the terminal will prompt the user to answer a few question. When the questions are answered, the program creates a README.md file with the provided content in the "dist" directory
+  <br/>
   The following link is a walk through video describing the how and why for this application:
+  <br/>
   [Screencast video](https://drive.google.com/file/d/1XW0ZHsZC70ZUFCJt0jjVt_LoRpejN_hs/view)
   
     
